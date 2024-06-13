@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+    background-color: #6ac88a;
+}
+#logo{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+#menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s linear 0.1s;
+}
+#menu h1:hover{
+    text-decoration: underline;
+}
+#btn button{
+    padding: 10px 20px;
+    background-color: white;
+    color: #6ac88a;
+    font-weight: bold;
+    transition: 0.2s linear 0.1s;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+#btn button:hover{
+    text-decoration: underline;
+}
+
+/* First Section */
+#first-sec{
+    position: relative; 
+}
+#first-sec img{
+    height: 100vh;
+    width: 100%;
+    filter: brightness(60%);
+}
+#first-sec #shalf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+#first-sec .shalf{
+    position: absolute;
+    top: 30%;
+    color: white;
+    width: 45%;
+}
+#first-sec .shalf h1{
+    font-size: 65px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+#first-sec .shalf p{
+    padding: 30px 0;
+    font-size: 19px;    
+}
+#first-sec .shalf button{
+    padding: 20px 30px;
+    font-size: 18px;
+    border: none;
+    background-color: #6ac88a;
+    font-weight: bolder;
+    color: white;
+    border-radius: 30px;
+}
+#first-sec .shalf button:hover{
+    text-decoration: underline;
+}
+#first-sec #blog{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40vh;
+    padding: 0 50px;
+    background-color: #fef9ee;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+}
+#blog .blog h1{
+    color: #6ac88a;
+    font-size: 30px;
+}
+#blog .blog p{
+    width: 60%;
+    padding: 20px 0;
+    font-size: 19px;
+}
+#blog .blog button{
+    background-color: #6ac88a;
+    color: white;
+    font-size: 18px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: none;
+}
+
+/* Second Section */
+#secnd-sec{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
+    background-color: #bae3c8;
+}
+#secnd-sec #left{
+    width: 30%;
+}
+#secnd-sec h1{
+    font-size: 60px;
+    font-weight: bold;
+    color: #26382B;
+    font-family: sans-serif;
+}
+#secnd-sec #right{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#secnd-sec img{
+    width: 50%;
+    border-radius: 50%;
+}
+
+/* Third Section */
+#third-sec{
+    background-color: #1f1d1a;
+}
+.img-grid{
+    display: grid;
+    grid-template-columns: repeat(3,30%);
+    justify-content: center;
+    align-items: center;
+    height: 130vh;
+    row-gap: 10px;
+}
+.img-grid .img{
+    position: relative;
+}
+#third-sec h1{
+    font-size: 50px;
+    color: #6ac88a;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+}
+#third-sec p{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 30px;
+}
+.img-grid h3{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    position: absolute;
+    top: 90%;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+.img-grid img{
+    width: 90%;
+    height: 50vh;
+    filter: brightness(70%);
+}
+
+/* Footer */
+footer{
+    background-color: #6ac88a;
+    color: white;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+}
